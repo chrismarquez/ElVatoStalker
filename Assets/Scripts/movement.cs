@@ -8,6 +8,7 @@ public class movement : MonoBehaviour {
 	public float rotation;
 
 	Animator anim;
+
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
